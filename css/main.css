@@ -1,0 +1,143 @@
+/*!
+*Portfilio an SSYO Design Template
+ */
+
+html,body {
+    overflow-x: hidden;
+}
+
+#contact{
+  background:#f1f1f1;
+margin: 60px 0;
+padding: 50px;
+  text-align:center;
+ 
+}
+.p {
+    position: fixed;
+ 
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .progress-container {
+    width: 100%;
+    height: 6px;
+    background: white;
+  }
+  
+  .progress-bar {
+    height: 4px;
+  
+  background: linear-gradient(#799F0C, #ACBB78);
+    width: 0%;
+  }
+  .yobtn{
+background: #799F0C;
+border-radius: 40px; 
+ border: 1px solid #799F0C;
+ padding: 10px 42px;
+ 
+  }
+  .yobtn a{
+    font-family: Poppins;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+  }
+  .yobtn1 a{
+    font-family: Poppins;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+  }
+  .yobtn1{
+    background: #007bff;
+    border-radius: 40px; 
+     border: 1px solid #337ab7;
+     padding: 10px 42px;
+     margin-left: 5px;
+      }
+
+#testimonial p{
+  font-size:22px;
+  font-family: 'Josefin Sans';
+  color:#000;
+
+}
+#testimonal .sec-title{
+  color: #799F0C;
+}
+
+header .col-sm-6 {
+  background: #ccc;
+}
+.hello{
+    margin-top: 100px;
+    background:#fff;
+}
+
+.show{
+     padding: 8px 22px;
+   
+    font-family: Poppins;
+}
+.name{
+  font-size: 52px;
+  font-weight: 900px;
+}
+.p{
+  text-align:justify;
+}
+.navbar {
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: 500;
+      background:white;
+
+  color: linear-gradient(#799F0C, #ACBB78);
+}
+.title-name{
+  font-weight: 600px;
+  font-size: 25px;
+}
+
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+
+.navbar-brand{
+  font-family:Poppins;
+  font-size:25px;
+  color:linear-gradient(#799F0C, #ACBB78); !important;
+    
+}
+
+
+#skill li {
+    position: relative;
+    list-style: none;
+     margin: 50px 0;
+    font-size: 20px;
+      font-family:Poppins;
+    
+    color: black;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Poppins;
+}
+
+p{
+  font-family:Roboto;
+}
+#testimonial{
+  background:#f1f1f1;
+  
+  text-align:center;
+}
+@media (max-width: 767px) {
+  .ban {
+    display: none; } }
